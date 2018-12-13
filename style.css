@@ -6,10 +6,10 @@ body {
 .body-wrapper {
   max-width: 992px;
   margin: 0 auto;
+  padding: 25px;
 }
 
-.effective,
-.natural {
+.effective, .natural {
   display: inline-flex;
   margin-left: 90px;
   font-family: 'Open Sans', sans-serif;
@@ -18,8 +18,7 @@ body {
   top: -10px;
 }
 
-.effective p,
-.natural p {
+.effective p, .natural p {
   display: inline-flex;
   position: relative;
   top: 17px;
@@ -34,7 +33,7 @@ body {
 .title {
   color: #e0d082;
   font-size: 50px;
-  text-align: center;
+  text-align: left;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   margin: 30px 0;
@@ -131,20 +130,17 @@ body {
   text-decoration: line-through
 }
 
-.full span,
-.discount span {
+.full span, .discount span {
   display: block;
   font-family: 'PT Sans', sans-serif;
 }
 
-.full span:nth-child(2),
-.discount span:nth-child(2) {
+.full span:nth-child(2), .discount span:nth-child(2) {
   font-size: 35px;
   padding-left: 10px;
 }
 
-.full span:nth-child(1),
-.discount span:nth-child(1) {
+.full span:nth-child(1), .discount span:nth-child(1) {
   font-size: 14px;
   padding-left: 13px;
   padding-top: 20px;
@@ -152,12 +148,13 @@ body {
 
 .form__items {
   text-align: center;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .form__items input {
   width: 249px;
   height: 44px;
-  padding: 5px;
+  padding: 5px 5px 5px 15px;
   border-radius: 5px;
   border: 1px grey solid;
   margin-bottom: 15px;
@@ -297,29 +294,35 @@ body {
 .pantomax p:first-child span {
   color: #b13412;
 }
-.advances{
+
+.advances {
   margin-top: 60px;
   position: relative;
+  background-image: url("img/bottle2.png");
+  margin-top: 60px;
+  position: relative;
+  padding-bottom: 70px;
+  background-image: url(img/bottle2.png);
+  background-repeat: no-repeat;
+  background-position: -25px 135px;
 }
-.advances img{
-  position: absolute;
-  z-index: -1;
-  left: -60px;
-  bottom: -110px;
-}
+
 .advances__items {
   padding-left: 35%;
 }
-.advances__text{
+
+.advances__text {
   font-size: 48px;
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
 }
+
 .advances__text span:nth-child(1) {
   font-weight: 100;
 }
+
 .advances__text span:nth-child(2) {
   color: #b13412;
 }
@@ -334,8 +337,8 @@ body {
   text-align: center;
   font-weight: bold;
   position: relative;
-  margin-top: 12px; 
-  margin-left: 12px; 
+  margin-top: 12px;
+  margin-left: 12px;
 }
 
 .advances__items div span {
@@ -381,51 +384,65 @@ body {
   background-size: cover;
 }
 
-.doc{
+.doc {
   color: black;
   font-family: 'PT Sans', sans-serif;
-  background: url(img/docbg.png) no-repeat top right white;
+  background: url(img/docbg.png) white;
   position: relative;
-  border-radius: 10px; 
+  border-radius: 10px;
   font-size: 16px;
-  padding-top:30px ;
-  padding-left: 43px;
-  margin-top: 35px; 
+  background-repeat: no-repeat;
   height: 100%;
+  display: flex;
+  background-position: 100% 0;
+  flex-direction: column;
 }
-.doc__text{
+
+.doc__text {
+  background-image: url(img/doc.png);
+  background-position: 113% 23%;
+  background-repeat: no-repeat;
+  padding: 10px 35px;
+}
+
+.doc__text-inner {
   width: 60%;
 }
-.doctor{
+
+/* .doctor {
   position: absolute;
   top: -31px;
   right: -40px;
-}
+} */
 
-.doc__title{
+.doc__title {
   font-size: 48px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.doc p{
+.doc p {
   line-height: 1.5;
   margin-top: 10px;
 }
-.doc__title span{
+
+.doc__title span {
   color: #b13412;
   font-size: 48px;
   font-weight: bold;
 }
-.bottom{
+
+.bottom {
   position: relative;
 }
-.yanukovich{
+
+.yanukovich {
   font-weight: bold;
   font-size: 16px;
   padding: 16px 0;
 }
-.podpis{
+
+.podpis {
   position: absolute;
   bottom: 2px;
   right: 43%;

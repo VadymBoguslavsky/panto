@@ -1,0 +1,45 @@
+@media (min-width: 320px) and (max-width: 1000px) {
+  .text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    text-align: center;
+  }
+  .effective, .natural {
+    margin: 20px;
+  }
+  .top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .minus {
+    padding-top: 0;
+  }
+  .problem__choise {
+    width: 100%;
+  }
+  .problem__choise form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advances__items {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .doc__text {
+   background-position: 45% -8.5%;
+  }
+  .doc__text-inner {
+    width: 100%;
+    padding-top: 448px;
+  }
+}
