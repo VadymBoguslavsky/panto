@@ -1,23 +1,23 @@
 @media (min-width: 320px) and (max-width: 1000px) {
-  .text {
+  .header__text {
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .title {
+  .header__title {
     text-align: center;
   }
-  .effective, .natural {
+  .header__top-effective, .header__top-natural {
     margin: 20px;
   }
-  .top {
+  .header__top {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-  .minus {
+  .header__minus {
     padding-top: 0;
   }
   .problem__choise {
@@ -36,10 +36,22 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
   .doc__text {
-   background-position: 45% -8.5%;
+    background-position: center -30px;
   }
   .doc__text-inner {
     width: 100%;
     padding-top: 448px;
+  }
+  .pantomax {
+    padding: 10px;
+  }
+  .pantomax p:first-child {
+    width: 100%;
+  }
+  .pantomax {
+    padding: 10px;
+  }
+  .podpis {
+    right: 1%;
   }
 }
