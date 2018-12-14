@@ -96,6 +96,10 @@ body {
   opacity: 0.5;
 }
 
+.timer__wrapper {
+  font-family: 'PT Sans', sans-serif;
+}
+
 .timer__wrapper span:last-child {
   margin-left: 15px;
   display: inline-block;
